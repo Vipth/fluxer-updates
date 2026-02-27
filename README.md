@@ -1,3 +1,5 @@
+(This project is vibe coded)
+
 # Fluxer Status → Discord
 
 This project sends Fluxer status updates to a Discord channel using GitHub Actions.
