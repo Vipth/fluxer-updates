@@ -10,8 +10,6 @@ https://fluxerstatus.com/summary.json
 
 Every 5 minutes and posts to Discord only when something changes.
 
-No server required. No bot hosting. No maintenance.
-
 ---
 
 ## What it does
