@@ -52,7 +52,9 @@ function makeFingerprint(entries) {
 async function postToDiscord(webhookUrl, entries) {
   // Keep it readable; Discord allows up to 2000 chars in content
   const lines = entries.slice(0, 10).map((e) => {
-    const when = e.updatedAt ? new Date(e.updatedAt).toISOString() : "unknown time";
+    const when = e.updatedAt
+  ? `<t:${Math.floor(new Date(e.updatedAt).getTime() / 1000)}:F>`
+  : "unknown time";
     const extra = e.kind === "Incident" ? ` • impact: ${e.impact}` : "";
     return `**[${e.kind}]** ${e.name}\nStatus: \`${e.status}\`${extra}\nUpdated: ${when}\n${e.url}`;
   });
