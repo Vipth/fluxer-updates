@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Maintenance\",\"id\":\"cmm04p16n0e8tp79zr7mh42cp\",\"status\":\"INPROGRESS\",\"impact\":null,\"name\":\"API Migration (Part 2!)\",\"url\":\"https://fluxerstatus.com/cmm04p16n0e8tp79zr7mh42cp\",\"latestUpdateKey\":\"Update|February 26, 2026 at 7:41 PM|\"},{\"kind\":\"Incident\",\"id\":\"cmm4k384e0h8jfnu1if6478rh\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Platform access is temporarily limited\",\"url\":\"https://fluxerstatus.com/cmm4k384e0h8jfnu1if6478rh\",\"latestUpdateKey\":\"Investigating|February 27, 2026 at 4:46 PM|\"}]",
-  "updatedAt": "2026-02-28T05:03:15.837Z"
+  "fingerprint": "[{\"kind\":\"Maintenance\",\"id\":\"cmm04p16n0e8tp79zr7mh42cp\",\"status\":\"INPROGRESS\",\"impact\":null,\"name\":\"API Migration (Part 2!)\",\"url\":\"https://fluxerstatus.com/cmm04p16n0e8tp79zr7mh42cp\",\"latestUpdateKey\":\"Update|February 28, 2026 at 4:22 AM|\"},{\"kind\":\"Incident\",\"id\":\"cmm4k384e0h8jfnu1if6478rh\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Platform access is temporarily limited\",\"url\":\"https://fluxerstatus.com/cmm4k384e0h8jfnu1if6478rh\",\"latestUpdateKey\":\"Investigating|February 27, 2026 at 4:46 PM|\"}]",
+  "updatedAt": "2026-02-28T05:45:59.512Z"
 }
