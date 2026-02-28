@@ -20,36 +20,46 @@ function pickEntries(data) {
 
   // Normalize into a single list
   const entries = [
+    // inside pickEntries(), when mapping incidents:
     ...incidents.map((x) => ({
       kind: "Incident",
       id: x.id ?? x.url ?? x.name,
       name: x.name ?? "Unnamed incident",
       status: x.status ?? "UNKNOWN",
       impact: x.impact ?? "UNKNOWN",
-      // keep the summary timestamps around for display/debugging,
-      // but DO NOT use them for change detection
-      summaryUpdatedAt: x.updatedAt ?? x.started ?? null,
+      updatedAt: x.updatedAt ?? x.started ?? null, // <-- put back updatedAt
       url: x.url ?? "https://fluxerstatus.com/",
-      latestUpdateKey: null, // filled in later
+      latestUpdateKey: null,
     })),
+
+    // and when mapping maintenances:
     ...maints.map((x) => ({
       kind: "Maintenance",
       id: x.id ?? x.url ?? x.name,
       name: x.name ?? "Unnamed maintenance",
       status: x.status ?? "UNKNOWN",
       impact: x.impact ?? null,
-      summaryUpdatedAt: x.updatedAt ?? x.start ?? null,
+      updatedAt: x.updatedAt ?? x.start ?? null, // <-- put back updatedAt
       url: x.url ?? "https://fluxerstatus.com/",
-      latestUpdateKey: null, // filled in later
+      latestUpdateKey: null,
     })),
   ];
 
-  // Sort newest first by summaryUpdatedAt (only for ordering)
+  // Sort newest first by updatedAt (only for ordering)
   entries.sort(
-    (a, b) => (Date.parse(b.summaryUpdatedAt ?? "") || 0) - (Date.parse(a.summaryUpdatedAt ?? "") || 0)
+    (a, b) => (Date.parse(b.updatedAt ?? "") || 0) - (Date.parse(a.updatedAt ?? "") || 0)
   );
-
   return entries;
+}
+
+async function fetchWithTimeout(url, ms) {
+  const ac = new AbortController();
+  const t = setTimeout(() => ac.abort(), ms);
+  try {
+    return await fetch(url, { signal: ac.signal, headers: { "User-Agent": "fluxer-discord-notifier/1.0" }});
+  } finally {
+    clearTimeout(t);
+  }
 }
 
 function htmlToLines(html) {
@@ -79,7 +89,7 @@ function htmlToLines(html) {
 }
 
 function extractLatestUpdateFromLines(lines) {
-  const idx = lines.findIndex((l) => l === "Updates");
+  const idx = lines.findIndex((l) => l === "Updates" || l === "Update");
   if (idx === -1) return null;
 
   // Walk forward and find the first block that looks like:
@@ -121,7 +131,7 @@ async function fetchLatestUpdateKey(url) {
   // If it’s not a fluxerstatus incident/maintenance details page, skip
   if (!url || !url.startsWith("https://fluxerstatus.com/")) return null;
 
-  const r = await fetch(url, { headers: { "User-Agent": "fluxer-discord-notifier/1.0" } });
+  const r = await fetchWithTimeout(url, 10000);
   if (!r.ok) return null;
 
   const html = await r.text();
@@ -136,8 +146,6 @@ async function fetchLatestUpdateKey(url) {
 }
 
 function makeFingerprint(entries) {
-  // Fingerprint only what matters for “did something *real* change?”
-  // We intentionally do NOT include summaryUpdatedAt.
   return JSON.stringify(
     entries.map((e) => ({
       kind: e.kind,
@@ -146,26 +154,31 @@ function makeFingerprint(entries) {
       impact: e.impact,
       name: e.name,
       url: e.url,
-      latestUpdateKey: e.latestUpdateKey, // <- actual incident-page update signal
+      latestUpdateKey: e.latestUpdateKey, // ✅ real change signal
+      // updatedAt intentionally NOT included ✅
     }))
   );
 }
 
 async function postToDiscord(webhookUrl, entries) {
-  // Keep it readable; Discord allows up to 2000 chars in content
   const lines = entries.slice(0, 10).map((e) => {
+    // ✅ your preferred Discord timestamp format
+    const when = e.updatedAt
+      ? `<t:${Math.floor(new Date(e.updatedAt).getTime() / 1000)}:F>`
+      : "unknown time";
+
+    // show the latest real update info (from the incident page)
     const latestPretty = e.latestUpdateKey
       ? e.latestUpdateKey.split("|").slice(0, 2).join(" • ")
       : "unknown";
 
     const extra = e.kind === "Incident" ? ` • impact: ${e.impact}` : "";
-    const summaryWhen = e.summaryUpdatedAt ? new Date(e.summaryUpdatedAt).toISOString() : "unknown";
 
     return (
       `**[${e.kind}]** ${e.name}\n` +
       `Status: \`${e.status}\`${extra}\n` +
-      `Latest update: ${latestPretty}\n` +
-      `Summary updatedAt: ${summaryWhen}\n` +
+      `Updated: ${when}\n` +                  // ✅ uses your format
+      `Latest update: ${latestPretty}\n` +    // ✅ real “Updates” signal
       `${e.url}`
     );
   });
