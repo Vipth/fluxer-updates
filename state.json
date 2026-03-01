@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm4k384e0h8jfnu1if6478rh\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Platform access is temporarily limited\",\"url\":\"https://fluxerstatus.com/cmm4k384e0h8jfnu1if6478rh\",\"latestUpdateKey\":\"Monitoring|March 01, 2026 at 7:31 AM|\"}]",
-  "updatedAt": "2026-03-01T07:43:22.067Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm4k384e0h8jfnu1if6478rh\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"We're letting people back in slowly!\",\"url\":\"https://fluxerstatus.com/cmm4k384e0h8jfnu1if6478rh\",\"latestUpdateKey\":\"Monitoring|March 01, 2026 at 7:31 AM|\"}]",
+  "updatedAt": "2026-03-01T07:58:52.400Z"
 }
