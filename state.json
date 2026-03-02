@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm9ib05f008h4yfpnqnkesvd\",\"status\":\"INVESTIGATING\",\"impact\":\"MAJOROUTAGE\",\"name\":\"Issues with API requests and connecting to the Gateway\",\"url\":\"https://fluxerstatus.com/cmm9ib05f008h4yfpnqnkesvd\",\"latestUpdateKey\":\"Investigating|March 02, 2026 at 7:28 PM|\"}]",
-  "updatedAt": "2026-03-02T20:19:38.358Z"
+  "fingerprint": "[]",
+  "updatedAt": "2026-03-02T20:56:42.916Z"
 }
