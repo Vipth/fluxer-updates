@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm83853l0qluqcypvvggoeqq\",\"status\":\"IDENTIFIED\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Issue with connecting to the gateway.\",\"url\":\"https://fluxerstatus.com/cmm83853l0qluqcypvvggoeqq\",\"latestUpdateKey\":\"Identified|March 01, 2026 at 6:32 PM|\"}]",
-  "updatedAt": "2026-03-01T18:57:15.515Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm83853l0qluqcypvvggoeqq\",\"status\":\"IDENTIFIED\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Issue with connecting to the gateway.\",\"url\":\"https://fluxerstatus.com/cmm83853l0qluqcypvvggoeqq\",\"latestUpdateKey\":\"Update|March 02, 2026 at 6:28 AM|\"}]",
+  "updatedAt": "2026-03-02T07:34:52.852Z"
 }
