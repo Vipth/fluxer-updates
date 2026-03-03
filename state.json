@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-03T06:29:14.878Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmmav25sd0e4edfl60sozjp9t\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"We're restarting the gateway to apply an update, hang tight!\",\"url\":\"https://fluxerstatus.com/cmmav25sd0e4edfl60sozjp9t\",\"latestUpdateKey\":\"Investigating|March 03, 2026 at 5:07 PM|\"}]",
+  "updatedAt": "2026-03-03T17:58:09.891Z"
 }
