@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm9ib05f008h4yfpnqnkesvd\",\"status\":\"MONITORING\",\"impact\":\"MAJOROUTAGE\",\"name\":\"Issues with API requests and connecting to the Gateway\",\"url\":\"https://fluxerstatus.com/cmm9ib05f008h4yfpnqnkesvd\",\"latestUpdateKey\":\"Monitoring|March 02, 2026 at 9:17 PM|\"}]",
-  "updatedAt": "2026-03-02T22:03:24.225Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmm9yy4a904ifdfl6s9jgg2p4\",\"status\":\"INVESTIGATING\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Sporadic gateway reconnections (you'll only see the loading screen for a minute when this happens)\",\"url\":\"https://fluxerstatus.com/cmm9yy4a904ifdfl6s9jgg2p4\",\"latestUpdateKey\":\"Investigating|March 03, 2026 at 2:08 AM|\"}]",
+  "updatedAt": "2026-03-03T02:43:14.745Z"
 }
