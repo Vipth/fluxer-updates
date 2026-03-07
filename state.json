@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-07T14:01:46.524Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmmgd5vpk05mlw7mazsk6qukq\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with establishing gateway connections and loading channels\",\"url\":\"https://fluxerstatus.com/cmmgd5vpk05mlw7mazsk6qukq\",\"latestUpdateKey\":\"Monitoring|March 07, 2026 at 2:40 PM|\"}]",
+  "updatedAt": "2026-03-07T14:54:55.213Z"
 }
