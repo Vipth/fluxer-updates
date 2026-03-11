@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-07T21:20:02.752Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmmlboxyc04keygg65atq3vnd\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with connecting to the gateway\",\"url\":\"https://fluxerstatus.com/cmmlboxyc04keygg65atq3vnd\",\"latestUpdateKey\":\"Monitoring|March 11, 2026 at 1:20 AM|\"}]",
+  "updatedAt": "2026-03-11T02:44:30.420Z"
 }
