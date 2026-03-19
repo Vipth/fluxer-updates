@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-12T05:40:31.965Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmmxl0wpw01foaa5bkrfytanf\",\"status\":\"MONITORING\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Issues connecting to and using communities.\",\"url\":\"https://fluxerstatus.com/cmmxl0wpw01foaa5bkrfytanf\",\"latestUpdateKey\":\"Monitoring|March 19, 2026 at 2:48 PM|\"}]",
+  "updatedAt": "2026-03-19T15:24:17.716Z"
 }
