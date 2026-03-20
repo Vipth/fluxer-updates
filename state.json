@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-19T16:28:46.277Z"
+  "fingerprint": "[{\"kind\":\"Maintenance\",\"id\":\"cmmz70n94017257qzow3bvpcq\",\"status\":\"NOTSTARTEDYET\",\"impact\":null,\"name\":\"Fixing intermittent failures when sending messages in large communities\",\"url\":\"https://fluxerstatus.com/cmmz70n94017257qzow3bvpcq\",\"latestUpdateKey\":null}]",
+  "updatedAt": "2026-03-20T17:59:44.000Z"
 }
