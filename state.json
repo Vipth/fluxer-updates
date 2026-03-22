@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-22T16:00:34.777Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmn1y2yk90pw68djb5shxrsu0\",\"status\":\"MONITORING\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Gateway connection randomly dropping\",\"url\":\"https://fluxerstatus.com/cmn1y2yk90pw68djb5shxrsu0\",\"latestUpdateKey\":\"Monitoring|March 22, 2026 at 5:42 PM|\"}]",
+  "updatedAt": "2026-03-22T17:56:20.970Z"
 }
