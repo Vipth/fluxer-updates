@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-25T22:28:44.337Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmn7lbjdb08emi6n5cek1rxqj\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"YouTube links not embedding in chat\",\"url\":\"https://fluxerstatus.com/cmn7lbjdb08emi6n5cek1rxqj\",\"latestUpdateKey\":\"Investigating|March 26, 2026 at 2:51 PM|\"}]",
+  "updatedAt": "2026-03-26T15:41:07.112Z"
 }
