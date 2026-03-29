@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-03-26T21:30:16.002Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmnc1f2zp00t311o23yxewdda\",\"status\":\"IDENTIFIED\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Issues with receiving any sort of emails from Fluxer\",\"url\":\"https://fluxerstatus.com/cmnc1f2zp00t311o23yxewdda\",\"latestUpdateKey\":\"Identified|March 29, 2026 at 5:33 PM|\"}]",
+  "updatedAt": "2026-03-29T17:52:45.524Z"
 }
