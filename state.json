@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-04-01T16:14:54.565Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmno0ene000gg4r71oh2xy0nz\",\"status\":\"IDENTIFIED\",\"impact\":\"OPERATIONAL\",\"name\":\"Issues with accessing Fluxer over IPv6\",\"url\":\"https://fluxerstatus.com/cmno0ene000gg4r71oh2xy0nz\",\"latestUpdateKey\":\"Identified|April 07, 2026 at 2:37 AM|\"}]",
+  "updatedAt": "2026-04-07T03:25:50.464Z"
 }
