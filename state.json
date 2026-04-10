@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-04-08T14:19:37.450Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmnt464io000141tnas4orkdp\",\"status\":\"IDENTIFIED\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with accepting invites\",\"url\":\"https://fluxerstatus.com/cmnt464io000141tnas4orkdp\",\"latestUpdateKey\":\"Identified|April 10, 2026 at 4:28 PM|\"}]",
+  "updatedAt": "2026-04-10T16:31:12.404Z"
 }
