@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-04-10T17:28:00.362Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmntivwsc0400mnmyqf2xhli4\",\"status\":\"INVESTIGATING\",\"impact\":\"MAJOROUTAGE\",\"name\":\"Issues with connecting to the gateway\",\"url\":\"https://fluxerstatus.com/cmntivwsc0400mnmyqf2xhli4\",\"latestUpdateKey\":\"Investigating|April 10, 2026 at 11:14 PM|\"}]",
+  "updatedAt": "2026-04-10T23:20:48.899Z"
 }
