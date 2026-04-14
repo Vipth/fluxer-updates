@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-04-13T10:19:14.609Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmnytgfh000azd5mz2wd64six\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with creating new accounts, confirming your email\",\"url\":\"https://fluxerstatus.com/cmnytgfh000azd5mz2wd64six\",\"latestUpdateKey\":\"Investigating|April 14, 2026 at 4:08 PM|\"}]",
+  "updatedAt": "2026-04-14T16:51:20.437Z"
 }
