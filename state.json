@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-04-15T15:20:18.726Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmo5oepyd0ytengl5j7b733vb\",\"status\":\"INVESTIGATING\",\"impact\":\"MAJOROUTAGE\",\"name\":\"Issues connecting to the platform\",\"url\":\"https://fluxerstatus.com/cmo5oepyd0ytengl5j7b733vb\",\"latestUpdateKey\":\"Investigating|April 19, 2026 at 11:21 AM|\"}]",
+  "updatedAt": "2026-04-19T11:46:36.207Z"
 }
