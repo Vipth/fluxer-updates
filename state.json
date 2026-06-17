@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-06-14T06:20:29.541Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmqicxymr00482oo54p3r8u95\",\"status\":\"MONITORING\",\"impact\":\"OPERATIONAL\",\"name\":\"Issues with uploading media in the app\",\"url\":\"https://fluxerstatus.com/cmqicxymr00482oo54p3r8u95\",\"latestUpdateKey\":\"Resolved|June 17, 2026 at 7:47 PM|\"}]",
+  "updatedAt": "2026-06-17T19:49:07.989Z"
 }
