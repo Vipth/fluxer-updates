@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-06-23T20:32:42.841Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmrq9c1ui056b0klkyxv5mb2q\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with elevated API errors and guild availability issues\",\"url\":\"https://fluxerstatus.com/cmrq9c1ui056b0klkyxv5mb2q\",\"latestUpdateKey\":\"Monitoring|July 18, 2026 at 11:12 AM|UTC\"}]",
+  "updatedAt": "2026-07-18T11:36:54.541Z"
 }
