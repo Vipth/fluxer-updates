@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Maintenance\",\"id\":\"cms7m7xzz03b222pf0a3eodfx\",\"status\":\"NOTSTARTEDYET\",\"impact\":null,\"name\":\"Scheduled maintenance for infrastructure upgrades\",\"url\":\"https://fluxerstatus.com/cms7m7xzz03b222pf0a3eodfx\",\"latestUpdateKey\":null}]",
-  "updatedAt": "2026-07-30T14:40:34.935Z"
+  "fingerprint": "[{\"kind\":\"Maintenance\",\"id\":\"cms7m7xzz03b222pf0a3eodfx\",\"status\":\"INPROGRESS\",\"impact\":null,\"name\":\"Scheduled maintenance for infrastructure upgrades\",\"url\":\"https://fluxerstatus.com/cms7m7xzz03b222pf0a3eodfx\",\"latestUpdateKey\":null}]",
+  "updatedAt": "2026-07-31T01:16:27.798Z"
 }
