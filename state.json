@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-08-14T18:23:32.632Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmsxmrf4j04oo0rpwcv333k7y\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with slow desktop client downloads\",\"url\":\"https://fluxerstatus.com/cmsxmrf4j04oo0rpwcv333k7y\",\"latestUpdateKey\":\"Investigating|August 17, 2026 at 7:32 PM|UTC\"}]",
+  "updatedAt": "2026-08-17T19:46:28.872Z"
 }
