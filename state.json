@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-08-18T04:43:22.995Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmtj5a25u09z81mmfx9t9z4oj\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with accessing fluxer.gg URLs\",\"url\":\"https://fluxerstatus.com/cmtj5a25u09z81mmfx9t9z4oj\",\"latestUpdateKey\":\"Investigating|September 01, 2026 at 8:53 PM|UTC\"}]",
+  "updatedAt": "2026-09-01T21:12:57.233Z"
 }
