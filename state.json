@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmtn432z90fa61bo56el4ygqm\",\"status\":\"MONITORING\",\"impact\":\"OPERATIONAL\",\"name\":\"Issues with elevated API latency\",\"url\":\"https://fluxerstatus.com/cmtn432z90fa61bo56el4ygqm\",\"latestUpdateKey\":\"Monitoring|September 04, 2026 at 4:51 PM|UTC\"}]",
-  "updatedAt": "2026-09-04T17:00:37.533Z"
+  "fingerprint": "[]",
+  "updatedAt": "2026-09-07T22:04:30.457Z"
 }
