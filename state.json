@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmtypqc9f017g1bofuzu11xkp\",\"status\":\"MONITORING\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Issues with accessing our web services\",\"url\":\"https://fluxerstatus.com/cmtypqc9f017g1bofuzu11xkp\",\"latestUpdateKey\":\"Update|September 12, 2026 at 8:46 PM|UTC\"}]",
-  "updatedAt": "2026-09-12T21:42:20.776Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmtypqc9f017g1bofuzu11xkp\",\"status\":\"MONITORING\",\"impact\":\"OPERATIONAL\",\"name\":\"Issues with accessing our web services\",\"url\":\"https://fluxerstatus.com/cmtypqc9f017g1bofuzu11xkp\",\"latestUpdateKey\":\"Update|September 12, 2026 at 10:32 PM|UTC\"}]",
+  "updatedAt": "2026-09-12T23:25:31.792Z"
 }
