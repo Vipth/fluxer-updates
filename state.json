@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-09-15T18:24:59.489Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmuqxxrlm004e1mpckq7sm4uf\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with platform connectivity\",\"url\":\"https://fluxerstatus.com/cmuqxxrlm004e1mpckq7sm4uf\",\"latestUpdateKey\":\"Monitoring|October 02, 2026 at 1:33 PM|UTC\"}]",
+  "updatedAt": "2026-10-02T15:22:28.681Z"
 }
