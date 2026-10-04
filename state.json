@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-10-02T20:01:05.830Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmutcq1x6057c13rw80v99w5v\",\"status\":\"MONITORING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with connecting to the app for a subset of users\",\"url\":\"https://fluxerstatus.com/cmutcq1x6057c13rw80v99w5v\",\"latestUpdateKey\":\"Monitoring|October 04, 2026 at 6:42 AM|UTC\"}]",
+  "updatedAt": "2026-10-04T08:43:29.422Z"
 }
