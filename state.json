@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-10-04T14:25:04.717Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmv8qp4a003bj14m8dhf33ryq\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with loading media for a subset of users\",\"url\":\"https://fluxerstatus.com/cmv8qp4a003bj14m8dhf33ryq\",\"latestUpdateKey\":\"Investigating|October 14, 2026 at 11:27 PM|UTC\"}]",
+  "updatedAt": "2026-10-14T23:43:58.417Z"
 }
