@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-10-15T01:52:37.458Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmvbl1hnv0end1mp4vfu8r1et\",\"status\":\"IDENTIFIED\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with receiving email to Gmail addresses\",\"url\":\"https://fluxerstatus.com/cmvbl1hnv0end1mp4vfu8r1et\",\"latestUpdateKey\":\"Identified|October 16, 2026 at 11:12 PM|UTC\"}]",
+  "updatedAt": "2026-10-16T23:57:41.720Z"
 }
