@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-10-17T03:57:11.104Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmw1h787600o21npkmgcc66f1\",\"status\":\"INVESTIGATING\",\"impact\":\"PARTIALOUTAGE\",\"name\":\"Intermittent full platform unavailability for some users\",\"url\":\"https://fluxerstatus.com/cmw1h787600o21npkmgcc66f1\",\"latestUpdateKey\":\"Investigating|November 04, 2026 at 2:06 AM|UTC We are currently investigating this incident.\"}]",
+  "updatedAt": "2026-11-04T08:04:45.903Z"
 }
