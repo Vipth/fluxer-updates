@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[]",
-  "updatedAt": "2026-11-04T16:12:33.760Z"
+  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmw5j8u1o0jpb1ms0wym0emj1\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with loading messages, connecting to the client, for some users\",\"url\":\"https://fluxerstatus.com/cmw5j8u1o0jpb1ms0wym0emj1\",\"latestUpdateKey\":null}]",
+  "updatedAt": "2026-11-06T22:18:51.131Z"
 }
