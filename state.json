@@ -1,4 +1,4 @@
 {
-  "fingerprint": "[{\"kind\":\"Incident\",\"id\":\"cmwcqzcna06us0wngj9hkjus0\",\"status\":\"INVESTIGATING\",\"impact\":\"DEGRADEDPERFORMANCE\",\"name\":\"Issues with elevated API latency in the US East & Brazil region\",\"url\":\"https://fluxerstatus.com/cmwcqzcna06us0wngj9hkjus0\",\"latestUpdateKey\":null}]",
-  "updatedAt": "2026-11-12T01:37:03.043Z"
+  "fingerprint": "[]",
+  "updatedAt": "2026-11-12T08:49:16.624Z"
 }
